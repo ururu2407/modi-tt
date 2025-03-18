@@ -1,0 +1,19 @@
+$bg-primary: #f7efe8;
+$bg-secondary: #351303;
+$text-primary: #351303;
+$text-secondary: #fff;
+$heading: #5079b2;
+$a-text: #6f91c0;
+$menu-text: #072768;
+$dark-text: #000;
+$border-color: #323232;
+
+@font-face {
+  font-family: 'Texta-Book';
+  src: url('../fonts/TextaBook.woff');
+}
+@font-face {
+  font-family: 'Texta-Medium';
+  src: url('../fonts/TextaMedium.woff');
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
