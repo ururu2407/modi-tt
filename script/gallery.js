@@ -1,29 +1,25 @@
 const data = [
   {
     id: 1,
-    imgUrl:
-      'https://web.archive.org/web/20241221001945/https://getorganizedyall.com/wp-content/uploads/sb-instagram-feed-images/278353302_552250933083578_5065941140932862223_nlow.jpg',
+    imgUrl: './images/gallery1.jpg',
     likes: '4',
     comments: '3',
   },
   {
     id: 2,
-    imgUrl:
-      'https://web.archive.org/web/20241221001944/https://getorganizedyall.com/wp-content/uploads/sb-instagram-feed-images/273515358_631257004821813_2176843006746604933_nlow.jpg',
+    imgUrl: './images/gallery2.jpg',
     likes: '9',
     comments: '2',
   },
   {
     id: 3,
-    imgUrl:
-      'https://web.archive.org/web/20221108232328/https://getorganizedyall.com/wp-content/uploads/sb-instagram-feed-images/260275632_118168837258991_4229553493636386239_nlow.jpg',
+    imgUrl: './images/gallery3.jpg',
     likes: '10',
     comments: '6',
   },
   {
     id: 4,
-    imgUrl:
-      'https://web.archive.org/web/20221108232328/https://getorganizedyall.com/wp-content/uploads/sb-instagram-feed-images/179974349_1287947988695187_4773716806131453418_nlow.jpg',
+    imgUrl: './images/gallery4.jpg',
     likes: '18',
     comments: '0',
   },
