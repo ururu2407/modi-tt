@@ -1,260 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import './burger.css';
 @import './header.css';
 @import './main.css';
 @import './slider.css';
+@import './footer.css';
+
 @font-face {
-  font-family: "Texta-Book";
-  src: url("../fonts/TextaBook.woff");
-}
-@font-face {
-  font-family: "Texta-Medium";
-  src: url("../fonts/TextaMedium.woff");
+  font-family: 'Texta-Book';
+  src: url('../fonts/TextaBook.woff');
 }
 @font-face {
-  font-family: "Texta-Book";
-  src: url("../fonts/TextaBook.woff");
-}
-@font-face {
-  font-family: "Texta-Medium";
-  src: url("../fonts/TextaMedium.woff");
-}
-.footer-widgets {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.widget-area {
-  flex-basis: calc(50% - 48px);
-  max-width: calc(50% - 48px);
-}
-
-@media screen and (max-width: 640px) {
-  .widget-area {
-    flex-basis: calc(100% - 48px);
-    max-width: calc(100% - 48px);
-  }
-}
-.widget-title {
-  color: #996f51;
-  line-height: 1.2;
-  font-size: 1.563em;
-  margin-bottom: 12px;
-  font-family: "Texta-Medium";
-}
-
-@media screen and (max-width: 480px) {
-  .sbi_item {
-    width: 100%;
-  }
-}
-.sbi_item {
-  zoom: 1;
-  max-height: 1000px;
-  padding: inherit !important;
-  margin: 0 !important;
-  text-decoration: none;
-  opacity: 1;
-  overflow: hidden;
-  box-sizing: border-box;
-  transition: all 0.5s ease;
-}
-.sbi_item .sbi_link {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 0;
-  background: #333;
-  background: rgba(0, 0, 0, 0.6);
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
-  line-height: 1.1;
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.5s;
-}
-.sbi_item .sbi_link .sbi_hover_bottom {
-  position: absolute;
-  width: 98%;
-  text-align: center;
-  padding: 1% !important;
-  margin: 0 !important;
-  line-height: 1;
-  z-index: 2;
-  bottom: 7px;
-  font-size: 11px;
-}
-.sbi_item .sbi_link .sbi_hover_bottom .sbi_meta {
-  padding: 5px 0 0 0;
-  line-height: 1.1;
-}
-.sbi_item .sbi_link .sbi_hover_bottom .sbi_meta span {
-  margin: 0 5px !important;
-  font-size: 11px;
-  height: 1em;
-  display: inline-flex;
-  font-family: "Texta-Book";
-  align-items: center;
-}
-.sbi_item .sbi_link .sbi_hover_bottom .sbi_meta svg {
-  margin-right: 5px !important;
-  font-size: 13px;
-  width: 1em;
-  height: 1em;
-  display: inline-block;
-  vertical-align: -0.125em;
-}
-
-.sbi_photo {
-  transition: all 0.5s;
-}
-.sbi_photo img {
-  transition: all 0.5s;
-  width: 100%;
-}
-
-.sbi_photo_wrap .copy {
-  color: #f7efe8;
-}
-.sbi_photo_wrap:hover .sbi_link {
-  opacity: 1;
-  transition: all 0.5s;
-}
-.sbi_photo_wrap:hover .sbi_photo img {
-  transition: all 0.5s;
-  transform: scale(1.05);
-}
-
-.mc-field-group {
-  display: inline-block;
-  font-family: "Texta-Book";
-}
-.mc-field-group label {
-  display: block;
-  height: 1px;
-  text-indent: -9999px;
-}
-.mc-field-group input {
-  width: 175px;
-  background: #f7efe8;
-  line-height: 1.5;
-  padding: 9px 12px;
-  border-radius: 3px;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  color: rgba(0, 0, 0, 0.7);
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 300;
-  border: 1px solid rgba(0, 0, 0, 0.06);
-}
-.mc-field-group input::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.7);
-}
-.mc-field-group input[type=text] {
-  margin-right: 4px;
-}
-
-.clear {
-  font-family: "Texta-Book";
-  line-height: 1;
-}
-
-@media screen and (max-width: 768px) {
-  .mc-field-group {
-    width: 100%;
-  }
-  .mc-field-group input {
-    width: 100%;
-    margin-bottom: 5px;
-  }
-  .mc-field-group input[type=text] {
-    margin-right: 0;
-  }
-  .clear {
-    width: 100%;
-    display: block;
-  }
-  .clear input {
-    width: 100%;
-  }
-}
-.site-footer {
-  font-family: "Texta-Book";
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.simple-social-icons ul li {
-  background: none;
-  border: none;
-  list-style: none;
-  margin: 0 6px 12px;
-  padding: 0;
-  display: inline-block;
-  float: none;
-  line-height: 1;
-}
-.simple-social-icons ul li a {
-  background-color: #f7efe8;
-  border-radius: 18px;
-  color: #351303;
-  border: 0px #ffffff solid !important;
-  font-size: 18px;
-  padding: 9px;
-  width: 18px;
-  height: 18px;
-  box-sizing: content-box;
-  display: inline-block;
-  font-style: normal !important;
-  font-variant: normal !important;
-  font-weight: normal !important;
-  height: 1em;
-  line-height: 1em;
-  text-align: center;
-  text-decoration: none !important;
-  text-transform: none !important;
-  width: 1em;
-  transition: all 0.5s;
-}
-.simple-social-icons ul li a:hover {
-  background-color: #351303;
-  color: #f7efe8;
-  transition: all 0.5s;
-}
-.simple-social-icons ul li a svg {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-
-.widget_nav_menu ul li {
-  position: relative;
-  display: flex;
-  flex: 0 0 auto;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  line-height: 1;
-}
-.widget_nav_menu ul li a {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-decoration: none;
-  padding: 8px 14px;
-  color: #6f91c0;
-  width: 100%;
-  height: 100%;
-  font-size: 12.8px;
+  font-family: 'Texta-Medium';
+  src: url('../fonts/TextaMedium.woff');
 }
 
 body {
@@ -266,26 +23,23 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
 .wrap {
   margin: 0 auto;
   max-width: 1248px;
   width: 100%;
   box-sizing: border-box;
 }
-
 .row {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .heading {
   color: #5079b2;
   font-family: Verdana, sans-serif;
-  font-family: "Texta-Medium", Verdana, sans-serif;
+  font-family: 'Texta-Medium', Verdana, sans-serif;
   font-weight: 700;
   font-size: 1.953rem;
   line-height: 1.2;
-}/*# sourceMappingURL=styles.css.map */
+}
